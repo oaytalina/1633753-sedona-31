@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 - Студент: [Aita Osipova](https://up.htmlacademy.ru/htmlcss/31/user/1633753).
-- Наставник: `[Аслан Березгов](https://htmlacademy.ru/profile/id858779)`.
+- Наставник: [Аслан Березгов](https://htmlacademy.ru/profile/id858779).
 
 ---
 
