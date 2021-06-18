@@ -1,0 +1,274 @@
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: black;
+  text-transform: uppercase;
+  background-color: white;
+}
+a {
+  text-decoration: none;
+}
+.main-navigation a {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  background-color: transparent;
+  color: black;
+}
+.site-navigation {
+  list-style: none;
+  color: black;
+}
+
+.site-navigation a:hover {
+  color: #81b3d2;
+}
+.site-navigation a:focus {
+  color: #ababab;
+}
+/*.site-navigation a:active {
+  color: #766357;
+}*/
+.site-navigation-current {
+  color: #766357;
+}
+.intro {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  text-align: center;
+}
+.reasons {
+  background-color: #81b3d2;
+  width: 400px;
+  height: 256px;
+  color: white;
+  text-align: center;
+}
+
+.advice-list {
+  list-style: none;
+  text-align: center;
+}
+.advice-list h3 {
+  line-height: 21px;
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
+}
+.advice-list div {
+  text-align: center;
+}
+
+.no-pics-reason-list {
+  background-color: #eeeeee;
+  list-style: none;
+  text-align: center;
+}
+.no-pics-reason-list h3 {
+  line-height: 21px;
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
+}
+/*поиск гостиницы*/
+.hotelsearch {
+  text-align: center;
+}
+.hotelsedona {
+  background-color: #766357;
+  border: none;
+  width: 568px;
+  height: 86px;
+}
+
+.main-footer {
+  color: black;
+  background-color: white;
+
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+/*футер*/
+/*хештег и телефон*/
+.footer-contacts p,
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+  text-decoration: none;
+}
+
+/*кнопки соцсети*/
+.footer-social ul {
+  list-style: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #669ec0;
+}
+.button {
+  background-color: #81b3d2;
+  width: 46px;
+  height: 48px;
+  text-align: center;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+/*разработано*/
+.academy by {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/*стили для каталога*/
+.hotelfilter {
+  background-image: url(../img/imgcatalog/backgroundblur.jpg);
+  background-color: #669ec0;
+  background-repeat: no-repeat;
+  color: white;
+  background-size: cover;
+}
+
+.filter legend {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.filter ul {
+  list-style: none;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.filter-input-checkbox:hover + label,
+.filter-input-checkbox:focus + label {
+  color: white;
+}
+.range {
+  border: 2px solid white;
+}
+.search {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid white;
+  color: #ffffff;
+}
+/*сортировка*/
+.results-text {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  padding-left: 72px;
+}
+.results-sorting {
+  list-style: none;
+}
+.results-sorting a {
+  list-style: none;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.results-sorting a {
+  color: black;
+  border-bottom: 1px dotted #81b3d2;
+}
+
+.results-sorting a:hover {
+  color: #81b3d2;
+}
+
+.results-sorting a:active {
+  color: #000000;
+}
+
+.results-selected a {
+  color: #81b3d2;
+  border-bottom: none;
+}
+
+.results-title {
+  color: #000000;
+}
+
+/*отели*/
+.hotel-list {
+  list-style: none;
+}
+.rating {
+  height: 27px;
+  width: 110px;
+  background-color: #f2f2f2;
+  color: #666666;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.book-button {
+  font-family: "PT Sans", "Arial", sans-serif;
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  background-color: #766357;
+  color: #ffffff;
+  border: none;
+}
+
+.book-button:hover {
+  background-color: #604e43;
+}
+
+.book-button:active {
+  background-color: #604e43;
+  color: #73645c;
+}
+
+.link-about {
+  font-family: "PT Sans", "Arial", sans-serif;
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  background-color: #669ec0;
+  color: #ffffff;
+  border: none;
+}
+
+.link-about:hover {
+  background-color: #669ec0;
+}
+
+.link-about:active {
+  background-color: #669ec0;
+  color: #86b5d0;
+}
+
+.h {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}

@@ -1,86 +1,106 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
-	<title>HTML Academy: Седона</title>
+  <title>HTML Academy: Седона</title>
+
 	<link rel="icon" href="favicon.ico">
 	<link rel="icon" href="img/icon.svg" type="image/svg+xml">
 	<link rel="apple-touch-icon" href="img/icon180.png">
-	<link rel="manifest" href="manifest.webmanifest">
+  <link rel="manifest" href="manifest.webmanifest">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css" >
+
   </head>
-  <body>
-<header>
-    
-		<a>
-			<img src="img/logo.svg" width="138" height="70" alt="логотип">
-		</a>
-	<nav>
-		<ul>
+
+<body class="page-body">
+
+<header class="main-header">
+		<a class="main-header-logo" href="index.html">
+			<img src="img/logo.svg" width="138" height="70" alt="логотип" >
+    </a>
+
+	<nav class="main-navigation">
+		<ul class="site-navigation">
 			<li><a href="">Информация</a></li>
 			<li><a href="">Фото и видео</a></li>
 			<li><a href="">Карта штата</a></li>
 			<li><a href="catalog.html">Гостиницы</a></li>
-		</ul>	
-	</nav>
+		</ul>
+  </nav>
+
 </header>
-	<main>
-<h1>Седона</h1>
-<section>
-	
-		<img src="https://via.placeholder.com" alt="welcome to gorgeous sedona because the grand canyon sucks">
-	
+
+<main class="container">
+
+<h1>Седонa</h1>
+<div><img src="img/backgroundphoto.jpeg"></div>
+<section class="welcomeimg">
+		<div class="welcome"> <img> </div>
+	  <div class="to the gorgeous"> <img> </div>
+		<div class="sedona"><img> </div>
+		<div class="because the grand canyon sucks"><img src="https://via.placeholder.com" alt=" because the grand canyon sucks"></div>
+		<div class="white"></div>
 </section>
-<section>
+
+<section class="intro">
 	<h2>Вступление</h2>
-	<ul>
-		<li>
-			<h3>Седона — небольшой городок в Аризоне,заслуживающий большего!</h3>
-			<p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
-		</li>
-	</ul>
+      <div>
+      <h3 class="intro-text">Седона — небольшой городок в Аризоне,заслуживающий большего!</h3>
+      <p class="5reasons">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+      </div>
 </section>
 
-<section>
+<section class="reason1">
 	<h2>Причина 1</h2>
-	 
-			<h3>Настоящий городок </h3>
-			<p>— №1 —</p>
-			<p>Седона — не аттракцион для туристов, там
-				течёт своя жизнь</p>
-			<div>	<img src="img/photo1.jpg" width="800" height="256" alt="image1"> </div>
-		
+	 		<div class="reasons">
+				<h3>Настоящий городок </h3>
+				<p>— №1 —</p>
+				<p class="reason1-text2">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+			</div>
+
+			<div class="photo1">	<img src="img/photo1.jpg" width="800" height="256" alt="Фото города"> </div>
 </section>
 
-<section>
+<section class="advice">
 	<h2>Советы</h2>
-	<ul>
+	<ul class="advice-list">
 		<li>
+			<div class="accomodation"> ikonka dom </div>
 			<h3>Жилье</h3>
 			<p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
 		</li>
 		<li>
+			<div class="food"> ikonka burger</div>
 			<h3>Еда</h3>
 			<p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
 		</li>
 		<li>
+			<div class="souvenir"> ikonka podarok </div>
 			<h3>Сувениры</h3>
 			<p>Не только китайского, но и местного производства!</p>
 		</li>
 	</ul>
 </section>
-<section>
+
+<section class="reason2">
 	<h2>Причина 2</h2>
-	
-			<div>	<img src="img/photo2.jpg" width="800" height="256" alt="image1"> </div>
-			<h3> Там есть Мост дъявола </h3>
-			<p>— №2 —</p>
-			<p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-		
+			<div class="reasons">
+				<h3> Там есть Мост дъявола </h3>
+				<p>— №2 —</p>
+				<p class="reason2-text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+      </div
+
+      <div class="photo2">	<img src="img/photo2.jpg" width="800" height="256" alt="Мост Дьявола"> </div>
+
 </section>
 
-<section>
+<section class="no-pics-reason">
 	<h2>Причины 3 4 5</h2>
-	<ul>
+	<ul class="no-pics-reason-list">
 		<li>
 			<h3>небольшая площадь</h3>
 			<p>— №3 —</p>
@@ -98,37 +118,53 @@
 		</li>
 	</ul>
 </section>
-<section>
+
+<section class="hotelsearch">
 	<h2>Заинтересовались?</h2>
 	<p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-	<button type="button">ПОИСК ГОСТИНИЦЫ В седоне</button>
-	<div>	<img src="img/map.jpg" width="1199" height="594" alt="image1"> </div>
+  <button class="hotelsedona" type="button">ПОИСК ГОСТИНИЦЫ В седоне</button>
+	<div class="map">	<img src="img/map.jpg" width="1199" height="594" alt="image1"> </div>
 </section>
 
-<footer>
-<div>
+
+<footer class="main-footer">
+
+<div class="footer-contacts">
 <h2>контакты</h2>
 <p>#visitSEDONA</p> <br>
-<a href="tel:+78005558628">+7 800 555-86-28</a>
+<a class="footer-phone" href="tel:+78005558628">+7 800 555-86-28</a>
 </div>
-<div>
+
+<div class="footer-social">
     <h2>ссылки на соцсети</h2>
     <ul>
-      <li>
-        <a href="#">Твиттер</a>
+      <li class="button">
+        <a class="social-button" href="#">
+        <img src="img/twitter.svg" class="social-logo" alt="логотип твиттер">
+      </a>
       </li>
-      <li>
-        <a href="#">Фейсбук</a>
+      <li class="button">
+        <a class="social-button" href="#">
+        <img src="img/fb-icon.svg" class="social-logo" alt="логотип твиттер">
+      </a>
       </li>
-      <li>
-        <a href="#">Ютьюб</a>
+      <li class="button">
+        <a class="social-button" href="#">
+        <img src="img/youtube.svg" class="social-logo" alt="логотип твиттер">
+      </a>
       </li>
     </ul>
 </div>
-  <p>
-    Website by
-    <a href="https://htmlacademy.ru">HTML Academy</a>
-  </p>
+<div class="academy">
+  <div>
+    <p class="by"> WEBSITE BY</p>
+  </div>
+  <div>
+    <a class="link-academy" href="#">
+      <img src="img/logo_htmlacademy.svg" width="115" height="41" alt="Логотип HTML Academy">
+    </a>
+  </div>
+</div>
 </footer>
 	</main>
   </body>
